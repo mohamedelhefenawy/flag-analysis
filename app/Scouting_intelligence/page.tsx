@@ -174,8 +174,9 @@ processing large volumes of information."
     <Image
       src="/scout/ready_4.png"
       alt="player"
-      width={250}
-      height={250}
+      width={240}
+      height={240}
+      className='max-h-[150px] max-w-[150px] md:max-h-[200px] md:max-w-[200px] lg:max-h-[250px] lg:max-w-[250px] '
     />
     <div className='flex flex-col items-center justify-center text-center gap-4'>
       <h2 className='text-white'>
