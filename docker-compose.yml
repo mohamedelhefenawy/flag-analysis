@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  nextjs-app:
+    build:
+      context: .
+      dockerfile: DockerFile
+    ports:
+      - "127.0.0.1:3123:3000"
+
+    environment:
+      NODE_ENV: production
+    restart: unless-stopped
+
+    volumes:
+      - nextjs_public:/app/public:ro
+
+    networks:
+      - frontend_net
+
+networks:
+  frontend_net:
+    external: true
+
+volumes:
+  nextjs_public:
+

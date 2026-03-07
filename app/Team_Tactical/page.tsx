@@ -93,8 +93,8 @@ export default function page() {
         <Image src='/tactical/team.png' alt='team_tactical' width={1160} height={420} className='w-full h-full' />
       </Title_sectoin>
       <Title_sectoin
-        subtitle="Possession vs Transition"
-        title="Team Tactical Analysis"
+        subtitle="PHASE ANALYSIS"
+        title="Possession vs Transition"
         description="Our proprietary index system evaluates players across four key dimensions, calibrated by position."
         color="secondary-500"
       >
@@ -103,7 +103,7 @@ export default function page() {
             <TacticalCard key={index} title={item.title} description={item.description} color={item.color} hoverColor={item.hoverColor} borderColor={item.borderColor} hoverBorderColor={item.hoverBorderColor}  />
           ))}
         </div>
-        <Image src='/tactical/position_2.png' alt='position_tactical' width={1152} height={719} className='object-contain w-full rounded-[24px]' />
+        <Image src='/tactical/position.svg' alt='position_tactical' width={1152} height={719} className='object-contain  w-full rounded-[24px]' />
       </Title_sectoin>
       <Title_sectoin
         subtitle="TRANSITION INTELLIGENCE"
