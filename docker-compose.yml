@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: DockerFile
     ports:
-      - "127.0.0.1:3123:3000"
+      - "127.0.0.1:3127:3000"
 
     environment:
       NODE_ENV: production
