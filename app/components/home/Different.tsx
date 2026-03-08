@@ -6,9 +6,9 @@ export default function Different() {
         {
             title: 'Saudi Ecosystem Awareness',
             description: 'Deep specialization in Saudi football culture, league dynamics, and the unique environment of the region.',
-            image:'/different/saudi.png',
             width: 377,
             height: 369,
+            image:'/home/different/saudi.png',
             pixelSnowcolor: '#9A35FF',
             hoverColor: '#331057',
             borderColor: '#1D1D1D',
@@ -21,7 +21,7 @@ export default function Different() {
         {
             title: 'Context-First Analysis',
             description: 'Every evaluation starts with context — league, role, team system — before metrics are applied.',
-            image:'/different/context.png',
+            image:'/home/different/context.png',
             width: 390,
             height: 343,
             pixelSnowcolor: '#9A35FF',
