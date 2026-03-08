@@ -12,8 +12,8 @@ services:
       NODE_ENV: production
     restart: unless-stopped
 
-    volumes:
-      - nextjs_public:/app/public:ro
+    # NOTE: Do NOT mount over /app/public - it hides built-in images (scout/, home/, player/, etc.)
+    # For user uploads, use a subpath: nextjs_public:/app/public/uploads
 
     networks:
       - frontend_net
@@ -21,7 +21,4 @@ services:
 networks:
   frontend_net:
     external: true
-
-volumes:
-  nextjs_public:
 
