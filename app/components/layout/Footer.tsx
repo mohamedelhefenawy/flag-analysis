@@ -55,11 +55,6 @@ export default function Footer() {
                     Company
                 </h5>
                 <div className='flex flex-col items-start justify-start gap-3'>
-                    <Link href='/Sentiment'>
-                        <p className='text-primary-400 hover:text-white transition-all duration-300 text-[16px] font-semibold'>
-                        Sentiment
-                        </p>
-                    </Link>
                     <Link href='/About'>
                         <p className='text-primary-400 hover:text-white transition-all duration-300 text-[16px] font-semibold'>
                         About

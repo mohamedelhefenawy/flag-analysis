@@ -10,7 +10,6 @@ const links = [
   { name: 'Team & Tactical', href: '/Team_Tactical' },
   { name: 'Scouting intelligence', href: '/Scouting_intelligence' },
   { name: 'WhatsApp Intelligence', href: '/Whatsapp_intelligence' },
-  { name: 'Sentiment', href: '/Sentiment' },
   { name: 'About', href: '/About' },
   { name: 'Contact', href: '/Contact' },
 ]
